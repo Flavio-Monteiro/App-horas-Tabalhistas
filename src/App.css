@@ -42,6 +42,12 @@
   align-items: center;
   flex-direction: column;
 }
+.section>p{
+  text-align: center;
+  font-size: .9em;
+  font-weight: bolder;
+  padding: 5px;
+}
 
 .subsection {
   grid-area: 2 / 5 / 4 / 6;
@@ -167,6 +173,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}.container-calculos>p{
+  font-size: .8em;
 }
 
 .seguro_desemprego,
