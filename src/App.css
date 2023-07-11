@@ -51,6 +51,9 @@
   font-weight: bolder;
   padding: 5px;
   text-shadow: 2px 2px 3px rgba(245, 245, 245, 0.745);
+  background-color: rgba(240, 240, 240, 0.5);
+  backdrop-filter: blur(10px);
+  
 }
 
 .subsection {
@@ -65,7 +68,10 @@
 
 .content-list-services2 {
   grid-area: 4 / 5 / 8 / 6;
-  background: #ffffff;
+  background-image: url(/public/6193734_3112677.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 1px solid #ddd;
   display: flex;
   justify-content: center;
@@ -92,6 +98,8 @@
   background: #ecf0f1;
   margin: 0;
   padding: 0;
+  background-color: rgba(240, 240, 240, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .service-list li {
