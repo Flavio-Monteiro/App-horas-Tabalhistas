@@ -35,7 +35,10 @@
 
 .section {
   grid-area: 2 / 2 / 8 / 5;
-  background: #ffffff;
+ background-image: url(/public/financewallpaper.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
   border: 1px solid #cdcdcd;
   display: flex;
   justify-content: center;
@@ -44,9 +47,10 @@
 }
 .section>p{
   text-align: center;
-  font-size: .9em;
+  font-size: 1.9em;
   font-weight: bolder;
   padding: 5px;
+  text-shadow: 2px 2px 3px rgba(245, 245, 245, 0.745);
 }
 
 .subsection {
@@ -56,6 +60,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+  
 }
 
 .content-list-services2 {
@@ -180,14 +185,15 @@
 .seguro_desemprego,
 .calculo_ferias {
   width: 60%;
-  background-color: #F0F0F0;
+  background-color: rgba(240, 240, 240, 0.5);
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.796);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 
 .container-calculos {
@@ -243,6 +249,8 @@
 
   .subheader {
     min-height: 90px;
+    background-color: #ddd;
+    color: #1f618d;
   }
 
   .subsection {
@@ -258,7 +266,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: ;
   }
 
   .list-content-01,
@@ -281,6 +288,10 @@
     justify-content: center;
     align-items: center;
     background-color: #2ecc71;
+  }.section>p{
+    text-align: center;
+    font-size: .9em;
+   
   }
 
 }
