@@ -28,8 +28,9 @@ const Principal = () => {
             <Subsection />
             <div className="content-list-services2">
                 <ul className="service-list">
-                    <li className="list07">Cálculo de Salário</li>
-                    <li className="list08">Cálculo de Horas Hextras</li>
+                    <li className="list07">Fundos de Renda Fixa</li>
+                    <li className="list08">Fundos de Renda Variável</li>
+                    <li className="list09">Cálculo de Horas Hextras</li>
                 </ul>
             </div>
             <Footer />

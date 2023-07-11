@@ -5,6 +5,7 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: minmax(0, 0.7fr) repeat(3, 1fr) minmax(0, 0.3fr) repeat(2, 1fr) minmax(0, 0.4fr);
   grid-gap: 12px;
+  padding: 10px;
 }
 
 .header {
@@ -14,7 +15,9 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-}.header img{
+}
+
+.header img {
   margin-right: 1em;
 }
 
@@ -37,17 +40,18 @@
 
 .section {
   grid-area: 2 / 2 / 8 / 5;
- background-image: url(/src/assets/financewallpaper.jpg);
- background-position: center center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-image: url(/src/assets/financewallpaper.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 1px solid #cdcdcd;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.section>p{
+
+.section>p {
   text-align: center;
   font-size: 1.9em;
   font-weight: bolder;
@@ -55,17 +59,20 @@
   text-shadow: 2px 2px 3px rgba(245, 245, 245, 0.745);
   background-color: rgba(240, 240, 240, 0.5);
   backdrop-filter: blur(10px);
-  
+
 }
 
 .subsection {
   grid-area: 2 / 5 / 4 / 6;
-  background: #e74c3c;
+  background-image: url(/src/assets/banner-subsection.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  
+
 }
 
 .content-list-services2 {
@@ -188,7 +195,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}.container-calculos>p{
+}
+
+.container-calculos>p {
   font-size: .8em;
 }
 
@@ -244,6 +253,24 @@
   background: #235638;
 }
 
+.list07,
+.list08,
+.list09 {
+  text-align: center;
+
+  transform: scale(.9);
+}
+
+.list07:hover,
+.list08:hover,
+.list09:hover {
+  background-color: #FF7C5B;
+  color: #ffffff;
+  border-radius: 5px;
+  transform: scale(1);
+
+}
+
 @media (max-width: 1024px) {
   .parent {
     display: flex;
@@ -290,7 +317,10 @@
     justify-content: center;
     align-items: center;
   }
-  .list07,.list08{
+
+  .list07,
+  .list08,
+  .list09 {
     max-width: 320px;
     min-height: 150px;
     display: flex;
@@ -298,10 +328,12 @@
     justify-content: center;
     align-items: center;
     background-color: #2ecc71;
-  }.section>p{
+  }
+
+  .section>p {
     text-align: center;
     font-size: .9em;
-   
+
   }
 
 }
