@@ -1,8 +1,7 @@
 // Componente do Subcabeçalho
 const Subheader = () => (
     <div className="subheader">
-    
-      <h2>Escolha um Serviço</h2>
+      <h2>Escolha o Serviço desejado</h2>
     </div>
   );
   export {Subheader}
