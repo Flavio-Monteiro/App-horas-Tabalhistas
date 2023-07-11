@@ -292,6 +292,10 @@
 
   .subsection {
     min-height: 100px;
+    
+  }.subsection>h2{
+    background-color: #1B9C85;
+    max-width: 100%;
   }
 
   .calculo_ferias,
