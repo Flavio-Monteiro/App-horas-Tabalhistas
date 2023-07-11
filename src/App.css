@@ -95,19 +95,64 @@
   cursor: pointer;
 }
 
-.list-content-01 { background: #2ecc71; color: #fff; }
-.list-content-02 { background: #27ae60; color: #fff; }
-.list-content-03 { background: #f1c40f; color: #fff; }
-.list-content-04 { background: #e74c3c; color: #fff; }
-.list-content-05 { background: #2980b9; color: #fff; }
-.list-content-06 { background: #ffffff; color: #333; }
+.list-content-01 {
+  background: #2ecc71;
+  color: #fff;
+}
 
-.list-content-01:hover { background: #27ae60; transform: scale(1.05); }
-.list-content-02:hover { background: #229954; transform: scale(1.05); }
-.list-content-03:hover { background: #f39c12; transform: scale(1.05); }
-.list-content-04:hover { background: #c0392b; transform: scale(1.05); }
-.list-content-05:hover { background: #1f618d; transform: scale(1.05); }
-.list-content-06:hover { transform: scale(1.05); }
+.list-content-02 {
+  background: #27ae60;
+  color: #fff;
+}
+
+.list-content-03 {
+  background: #f1c40f;
+  color: #fff;
+}
+
+.list-content-04 {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.list-content-05 {
+  background: #2980b9;
+  color: #fff;
+}
+
+.list-content-06 {
+  background: #ffffff;
+  color: #333;
+}
+
+.list-content-01:hover {
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
+.list-content-02:hover {
+  background: #229954;
+  transform: scale(1.05);
+}
+
+.list-content-03:hover {
+  background: #f39c12;
+  transform: scale(1.05);
+}
+
+.list-content-04:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+.list-content-05:hover {
+  background: #1f618d;
+  transform: scale(1.05);
+}
+
+.list-content-06:hover {
+  transform: scale(1.05);
+}
 
 .footer p {
   margin: 0;
@@ -124,7 +169,8 @@
   align-items: center;
 }
 
-.seguro_desemprego,.calculo_ferias {
+.seguro_desemprego,
+.calculo_ferias {
   width: 60%;
   background-color: #F0F0F0;
   height: auto;
@@ -159,50 +205,74 @@
   width: 100px;
   padding: 2px;
 }
-#calcular{
+
+#calcular {
   width: 250px;
   height: 40px;
   background: #27AE60;
   border-style: none;
   color: #ffffff;
   border-radius: 5px;
-  transition: .2s ease; 
+  transition: .2s ease;
 }
-#calcular:hover{
+
+#calcular:hover {
   background: #235638;
 }
-@media  (max-width: 1024px){
-  .parent{
+
+@media (max-width: 1024px) {
+  .parent {
     display: flex;
     flex-direction: column;
+    grid-gap: 0;
   }
-  .header{
-    height: 150px;
+
+  .header {
+    min-height: 100px;
+    text-align: center;
+    font-size: .5em;
   }
-  .subheader{
-    height: 150px;
+
+  .subheader {
+    min-height: 90px;
   }
-  .subsection{
-    height: 150px;
+
+  .subsection {
+    min-height: 100px;
   }
-  .calculo_ferias,.seguro_desemprego{
+
+  .calculo_ferias,
+  .seguro_desemprego {
     width: 90%;
   }
-.service-list{
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.list-content-01,
-.list-content-02,
-.list-content-03,
-.list-content-04,
-.list-content-05,
-.list-content-06 {
- max-width: 150px;
- min-height: 150px;
- display: flex;
- justify-content: center;
- align-items: center;
-}
+
+  .service-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: ;
+  }
+
+  .list-content-01,
+  .list-content-02,
+  .list-content-03,
+  .list-content-04,
+  .list-content-05,
+  .list-content-06 {
+    max-width: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list07,.list08{
+    max-width: 320px;
+    min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ecc71;
+  }
+
 }
