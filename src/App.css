@@ -33,7 +33,6 @@
   align-items: center;
 }
 
-
 .section {
   grid-area: 2 / 2 / 8 / 5;
   background: #ffffff;
@@ -54,7 +53,6 @@
 }
 
 .content-list-services2 {
-  
   grid-area: 4 / 5 / 8 / 6;
   background: #ffffff;
   border: 1px solid #ddd;
@@ -62,13 +60,7 @@
   justify-content: center;
   align-items: center;
 }
-.content-list-services2 ul{
-  height: 100%;
-}
-.content-list-services2 ul li{
-  background-color: #ffffff;
-  text-align: center;
-}
+
 .footer {
   grid-area: 8 / 1 / 9 / 6;
   background: #2980b9;
@@ -194,6 +186,23 @@
     height: 150px;
   }
   .calculo_ferias,.seguro_desemprego{
-    width: 100%;
+    width: 90%;
   }
+.service-list{
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.list-content-01,
+.list-content-02,
+.list-content-03,
+.list-content-04,
+.list-content-05,
+.list-content-06 {
+ max-width: 150px;
+ min-height: 150px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 }
