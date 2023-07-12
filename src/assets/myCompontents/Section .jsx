@@ -64,7 +64,7 @@ const Section = ({ selectedService, showSeguroDesemprego, showCalculoFerias }) =
 
   return (
     <div className="section">
-      {selectedService && <p>Serviço selecionado: <br /> {selectedService}</p>}
+      {selectedService && <p>Serviço selecionado: br {selectedService}</p>}
       {renderContent()}
     </div>
   );
